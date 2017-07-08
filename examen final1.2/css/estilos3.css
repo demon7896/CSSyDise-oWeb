@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'dancingscript';
+    src: url('fuentes/dancing_script.woff2') format('woff2'),
+         url('fuentes/dancing_script.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*
+{
+	margin:0;
+}
+body{
+	width: 100%;
+background-color:#02010a;
+font-family: dancingscript, sans-serif;
+	font-size: 20px;
+}
+#contenido
+{
+	width: 900px;
+	margin: 0 auto;
+}
+article
+{
+	box-sizing: border-box;
+	float:left;
+	height: 100%;
+	background-color: grey;
+	padding: 2%;
+	text-align: center;
+	height: 50%;
+}
+
+header >article >a{
+    text-decoration: none;
+    color:white;
+    float: right;
+    margin-right: 10px;
+
+}
+header{
+	text-shadow: 0 0 2px  #02010a;
+	border-radius: 10px;
+	color: white;
+
+}
+	#columna1
+	{
+    background-color:  #d5c75f;
+  	width: 33.33%;
+	}
+	#columna2
+	{
+	background-color:  #d5c75f;
+	width: 33.33%;
+  border: 1px;
+	}
+	#columna3
+	{
+	background-color:  #d5c75f;
+	width: 33.33%;
+  border: 1px;
+	}
+  #columna4
+  {
+    background-color:  #d5c75f;
+  	width: 33.33%;
+  }
+  #columna5
+  {
+  background-color:  #d5c75f;
+  width: 33.33%;
+  border: 1px;
+  }
+  #columna6
+  {
+  background-color:  #d5c75f;
+  width: 33.33%;
+  border: 1px;
+  }
+  #contacto{
+    background-color: #C6d5c5;
+    width: 25%;
+
+  }
+  #terminos{
+    background-color: #C6d5c5;
+    width: 25%;
+
+  }
+  #redes{
+    background-color: #C6d5c5;
+    width: 25%;
+
+  }
+  #derechos{
+    background-color: #C6d5c5;
+    width: 25%;
+
+    border-radius: 0 0 10px 0;
+  }
+  #uno{
+width: 50%;
+background-color: #5b7989;
+text-align: left;
+  }
+  #dos{
+width: 50%;
+background-color: #5b7989;
+  }
+
+@media screen and (min-width: 900px){
+
+	#contenido
+	{
+		width: 900px;
+		margin: 0 auto;
+	}
+  #contacto{
+  border-radius: 0 0 0 10px;
+
+  }
+  #derechos{
+    border-radius: 0 0 10px 0;
+  }
+  #uno{
+border-radius: 10px 0 0 0;
+
+  }
+  #dos{
+border-radius: 0 10px 0 0;
+  }
+  body{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 900px){
+
+#contenido
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#columna1
+	{
+	width: 100%;
+	}
+	#columna2
+	{
+	width: 100%;
+	}
+	#columna3
+	{
+	width: 100%;
+	}
+  #columna4
+	{
+	width: 100%;
+	}
+	#columna5
+	{
+	width: 100%;
+	}
+	#columna6
+	{
+	width: 100%;
+	}
+	#contacto{
+	width: 100%;
+	}
+	#terminos{
+		width: 100%;
+	}
+	#redes{
+		width: 100%;
+	}
+	#derechos{
+		width: 100%;
+      border-radius:0 0 10px 10px;
+	}
+  #uno{
+width: 100%;
+background-color: #5b7989;
+border-radius:10px 10px 0 0 ;
+text-align: center;
+  }
+  #dos{
+width: 100%;
+background-color: #5b7989;
+  }
+  header >article >a{
+      float: none;
+  }
+	header
+	{
+	width:100%;
+	}
+}
+img[src$=".jpg"]{
+ 	box-shadow: 2px 2px #02010a;
+}
+#columna1>img{
+  -webkit-filter:blur(10px)
+}
+#columna2>img,#columna4>img,#columna6>img{
+  -webkit-filter:grayscale(100%);
+}
+#columna3>img{
+-webkit-filter:sepia(100%);
+}
